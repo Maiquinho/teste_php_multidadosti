@@ -3,6 +3,9 @@
 require_once 'DataRequest.php';
 include 'include/cabecalho.php';
 
+
+$data = new DataRequest;
+
 ?>
 
 
@@ -74,7 +77,7 @@ include 'include/cabecalho.php';
                         </div>
                         <div class="details">
                             <div class="number">
-                                1349
+                                <?= $data->dadosClientes('c'); ?>
                             </div>
                             <div class="desc">
                                 Clientes
@@ -92,7 +95,7 @@ include 'include/cabecalho.php';
                         </div>
                         <div class="details">
                             <div class="number">
-                                549
+                                <?= $data->dadosUsuarios('c'); ?>
                             </div>
                             <div class="desc">
                                 Usuários
@@ -110,7 +113,7 @@ include 'include/cabecalho.php';
                         </div>
                         <div class="details">
                             <div class="number">
-                                89
+                                <?= $data->dadosFornecedores('c'); ?>
                             </div>
                             <div class="desc">
                                 Fornecedores
