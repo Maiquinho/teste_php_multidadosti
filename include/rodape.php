@@ -25,6 +25,7 @@
 <script src="assets/scripts/app.js" type="text/javascript"></script>
 <script src="assets/scripts/index.js" type="text/javascript"></script>
 <script src="assets/scripts/change-box-color.js" type="text/javascript"></script>
+<script src="assets/scripts/get-data.js" type="text/javascript"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
 <script>
     jQuery(document).ready(function() {

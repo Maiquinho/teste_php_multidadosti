@@ -132,7 +132,7 @@ $data = new DataRequest;
             <div class="row">
                 <div class="col-md-12">
                     <!-- BEGIN SAMPLE TABLE PORTLET-->
-                    <div class="portlet box grey">
+                    <div class="portlet box grey" style="display: none;">
                         <div class="portlet-title">
                             <div class="caption">
                                 <i class="fa fa-folder-open"></i>Tabela Simples
@@ -156,94 +156,20 @@ $data = new DataRequest;
                                                 Nome
                                             </th>
                                             <th>
-                                                Sobrenome
+                                                CPF
                                             </th>
                                             <th>
-                                                Usuario
+                                                Endereço
                                             </th>
                                             <th>
-                                                Status
+                                                Telefone
+                                            </th>
+                                            <th>
+                                                E-mail
                                             </th>
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                1
-                                            </td>
-                                            <td>
-                                                Mark
-                                            </td>
-                                            <td>
-                                                Otto
-                                            </td>
-                                            <td>
-                                                makr124
-                                            </td>
-                                            <td>
-                                                <span class="label label-sm label-success">
-                                                    Aprovado
-                                                </span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                2
-                                            </td>
-                                            <td>
-                                                Jacob
-                                            </td>
-                                            <td>
-                                                Nilson
-                                            </td>
-                                            <td>
-                                                jac123
-                                            </td>
-                                            <td>
-                                                <span class="label label-sm label-info">
-                                                    Pendente
-                                                </span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                3
-                                            </td>
-                                            <td>
-                                                Larry
-                                            </td>
-                                            <td>
-                                                Cooper
-                                            </td>
-                                            <td>
-                                                lar
-                                            </td>
-                                            <td>
-                                                <span class="label label-sm label-warning">
-                                                    Suspenso
-                                                </span>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                4
-                                            </td>
-                                            <td>
-                                                Sandy
-                                            </td>
-                                            <td>
-                                                Lim
-                                            </td>
-                                            <td>
-                                                sanlim
-                                            </td>
-                                            <td>
-                                                <span class="label label-sm label-danger">
-                                                    Bloqueado
-                                                </span>
-                                            </td>
-                                        </tr>
-                                    </tbody>
+                                    <tbody id="portlet-body-tbody"></tbody>
                                 </table>
                             </div>
                         </div>
