@@ -3,16 +3,16 @@
 $menuList = array(
     'Dashboard' => 'index.php',
     'Cadastro' => array(
-        'Cliente' => 'casdatro-cliente.php',
-        'Fornecedor' => 'cadastro-fornecedor.php',
-        'Perfil de acesso' => 'cadastro-perfil-de-acesso.php',
-        'Produtos' => 'cadastro-produtos.php',
-        'Usuário' => 'cadastro-usuario.php',
+        'Cliente' => '#',
+        'Fornecedor' => '#',
+        'Perfil de acesso' => '#',
+        'Produtos' => '#',
+        'Usuário' => '#',
     ),
     'Relatório' => array(
-        'Cliente' => 'relatorio-cliente.php',
-        'Faturamento' => 'relatorio-faturamento.php',
-        'Produtos' => 'relatorio-produtos.php',
+        'Cliente' => '#',
+        'Faturamento' => '#',
+        'Produtos' => '#',
     ),
 );
 
